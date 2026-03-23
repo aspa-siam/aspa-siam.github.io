@@ -1,0 +1,9 @@
+---
+title: 2026 Deil S. Wright Symposium
+subtitle: Elysian Park, Loews Hollywood
+page-layout: article
+listing:
+  - id: presentations_2026
+    contents: presentations_2026.yml
+    template: ../html/symposia/symposium.ejs
+---

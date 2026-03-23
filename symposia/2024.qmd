@@ -1,0 +1,10 @@
+---
+title: 2024 Deil S. Wright Symposium
+subtitle: Lakeshore C, Hyatt Regency Minneapolis
+page-layout: article
+listing:
+  - id: presentations_2024
+    contents: presentations_2024.yml
+    template: ../html/symposia/symposium.ejs
+---
+ 

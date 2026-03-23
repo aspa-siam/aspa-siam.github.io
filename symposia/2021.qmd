@@ -1,0 +1,9 @@
+---
+title: 2021 Deil S. Wright Symposium
+subtitle: "Virtual"
+page-layout: article
+listing:
+  - id: presentations_2021
+    contents: presentations_2021.yml
+    template: ../html/symposia/symposium.ejs
+---

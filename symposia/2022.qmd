@@ -1,0 +1,9 @@
+---
+title: 2022 Deil S. Wright Symposium
+subtitle: "City Terrace 7, Hyatt Regency Jacksonville"
+page-layout: article
+listing:
+  - id: presentations_2022
+    contents: presentations_2022.yml
+    template: ../html/symposia/symposium.ejs
+---

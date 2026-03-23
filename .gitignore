@@ -1,5 +1,7 @@
 .DS_Store
 .Rhistory
 /.quarto/
+/.vscode/
 /_site/
 /files/.DS_Store
+**/*.quarto_ipynb

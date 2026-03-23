@@ -32,13 +32,16 @@ Criteria for selection includes the following:
 
 tibble::tribble(
 ~year,  ~practitioner,  ~scholar, ~legacy,  ~student,
+2026, "Wally Bobkiewicz", "Eric Zeemering", "", "",
+2025, "Luke Jones", "J. Edwin Benton", "", "",
+2024, "Erin Aleman", "Jen Nelles", "John Kincaid", "Colt Jensen",
 2023, "Kathleen Hale", "Mark Fowler", "Carl Stenberg", "Shuwen Zhang",
 2022,	"Maria Dadgar",	"David Ammons", "David Miller", "Renzo de la Riva Aguero",
 2021,	"Clifford M. Lippard",	"Michael McGuire", "" , "David Schwegman",
 2020,	"Douglas R. Hooker", "Carl Stenberg", "" , "Brian An",
 2019,	"Rep. Rob Bishop", "Suzanne Leland", "" , "Samuel Gallaher",
 2018,	"Peter Harkness", "Karen Mossberger", "" , "Samuel Gallaher",
-2017,	"Norton Bonaparte", "Jered Carr", "Ed Benton", "Ruowen Shen",
+2017,	"Norton Bonaparte", "Jered Carr", "J. Edwin Benton", "Ruowen Shen",
 2016,	"Rajesh Mohan", "Tim Conlan", "", "Andrew Crosby",
 2015,	"Peter Austin",	"Michael Pagano", "", "",
 2014,	"", "", "", "",		
@@ -101,7 +104,7 @@ NA , "",               "Alan R. Siegle", "", "",
   gt::sub_missing(columns=year, missing_text = "") |>
   gt::tab_footnote(
     footnote = "No Award Information.",
-    locations = gt::cells_body(columns = year, rows = c(10, 13))
+    locations = gt::cells_body(columns = year, rows = c(13, 16))
   ) |> 
   gt::opt_footnote_marks(marks = "standard") |>
   gt::opt_horizontal_padding(scale = 1.5)

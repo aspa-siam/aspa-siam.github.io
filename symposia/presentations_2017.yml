@@ -1,0 +1,92 @@
+- panel: "Intergovernmental Management: A European Perspective"
+  time: 8:45 a.m. - 10:15 a.m.
+  papers:
+  - title: "Cross-cutting Cleavages in Intergovernmental Networks – The Oil in the Machinery of Cooperative Federalism?"
+    authors:
+    - name: Nathalie Behnke, 
+      affiliation: Universitat Konstanz, Germany
+    - name: Yvonne Hegele
+      affiliation: Universitat Konstanz, Germany
+  - title: "Intergovernmental Relations in Spain: The Case of Bilateral Negotiations"
+    authors:
+    - name: Mireia Grau Creus
+      affiliation:  Self-Government Studies Institute, Barcelona
+  - title: "The Intergovernmental Method in the European Union: Democracy, Transparency of the Decision-making Process and Efficiency of the Institutions"
+    authors:
+    - name: Stelio Mangiameli
+      affiliation: Institute for the Study of Regionalism, Federalism and Self-Government, Italy
+  - title: "Practice and Potential Developments of Intergovernmental Management in the Italian System: Reflections on the Principle of Fair Cooperation"
+    authors:
+    - name: P. Colasante
+      affiliation: Institute for the Study of Regionalism, Federalism and Self-Government, Italy
+    - name: A. Iacoviello
+      affiliation: Institute for the Study of Regionalism, Federalism and Self-Government, Italy
+
+- panel: Break
+  time: 10:15 a.m. - 10:30 a.m.
+
+- panel: Collaborative Public Management
+  time: 10:30 a.m. - Noon
+  moderators:
+  - name: Cynthia Bolling
+    affiliation: Auburn University
+  papers:
+  - title: "Why 'Collaborative' and Not 'Intergovernmental'? The Value of Incorporating the Intergovernmental Dimension in Collaborative Public Management Research"
+    authors:
+    - name: Michael McGuire
+      affiliation: Indiana University--Bloomington
+    - name: David Lee
+      affiliation: Indiana University--Bloomington
+  - title: "Research Meets Reality: Studying Interjurisdictional Collaboration in Partnership with Intergovernmental Institutions and Local Officials"
+    authors:
+    - name: Julie Roberts
+      affiliation: Tennessee State University
+    - name: Cliff Lippard
+      affiliation: Tennessee Advisory Commission on Intergovernmental Relations
+    - name: Meg Streams
+      affiliation: Tennessee State University
+    - name: Soumen Ghosh
+      affiliation: Tennessee State University
+  - title: "Meeting the Challenge of Animal Control in Urban Areas through Innovation and Collaboration"
+    authors:
+    - name: David Swindell
+      affiliation: Arizona State University
+
+- panel: Lunch Break   
+  time: Noon - 1:00 p.m.
+
+- panel: Regional Governance Roundtable
+  time: 1:00 p.m. - 2:30p.m.
+  moderators:
+  - name: David Miller
+    affiliation: University of Pittsburgh
+  description: |
+    Participants:
+
+    - Doug Hooker, Atlanta Regional Commission
+    - Michelle Lacewell, Nashville MPO Michael Skipper, Greater Nashville Regional Council
+    - Kristen Michaels, CONNECT (Pittsburgh)
+    - Jen Nelles, Hunter College
+    - Jay Rickabaugh, University of Pittsburgh
+
+- panel: Break
+  time: 2:30 p.m. - 2:45 p.m.
+
+- panel: State and Local Government Review Roundtable
+  time: 2:45 p.m. - 4:15 p.m.
+  moderators:
+  - name: John Kincaid
+    affiliation: Lafayette College
+  description: |
+    Participants:
+
+    - Tim Conlan, George Mason University
+    - Michael Pagano, University of Illinois, Chicago
+    - Paul Posner, George Mason University
+
+- panel: Wrap-Up
+  time: 4:15 p.m. - 4:30 p.m.
+  description: |
+    Eric Zeemering, Northern Illinois University
+    
+    Mark Wright

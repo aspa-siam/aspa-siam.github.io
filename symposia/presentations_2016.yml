@@ -1,0 +1,110 @@
+- panel: Welcome 
+  time: 8:30-8:45
+
+- panel: Local Governance and Intergovernmental Management Research
+  time: 8:45-10:00 
+  papers:
+  - title: "The Rise of Specialized Governance in Federalism: Links between Local Autonomy and Special Districts among States"
+    authors:
+    - name: Yu Shi
+      affiliation: University of Illinois at Chicago
+  - title: "The Dynamics of Interorganizational Risk Management Networks: Following the 2015 South Korea MERS Response"
+    authors:
+    - name: KyungWoo (John) Kim
+      affiliation: University of North Texas            
+  - title: "Policy Abandonment at Multiple Levels of Government: Understanding Why State and Local Governments Abandon Economic Development Incentives"
+    authors:
+    - name: Eric Stokan
+      affiliation: George Washington University
+  - title: "External and Internal Influences on Local Governments to Design Comprehensive Sustainability Programs"
+    authors:
+    - name: Hyungjun Ji
+      affiliation: Arizona State University
+  - title:  "Why Do Local Leaders Cooperate Across Boundaries? Results from a National Survey Experiment on Mayors and Councilors"
+    authors:
+    - name: Meghan Rubado
+      affiliation: Temple University
+
+- panel: Break
+  time: 10:00-10:15 
+
+- panel: Discussion of Panel 1 Papers
+  time: 10:15-11:00 
+  description: Discussants include editors of State and Local Government Review, Public Administration Review, Urban Affairs Review
+
+- panel:  What Future for SIAM?  Exploring and Adjusting the Mission of ASPA's Intergovernmental Section
+  time: 11:00-12:30 
+  description: |
+    This roundtable features leading scholars and practitioners who served on the committee to review the recent SIAM mission change and make implementation recommendations.  Eric Zeemering will present results of the survey of SIAM members the committee conducted and panel members will provide their thoughts, assessments, and ideas in a dialogue with the other panelists and the audience.
+
+    Participants
+
+      - Eric Zeemering, Northern Illinois University (Chair)
+      - Ed Benton, University of South Florida
+      - David Miller, University of Pittsburgh
+      - David Warm, Executive Director, Mid-America Regional Council
+
+- panel: Lunch Break
+  time: 12:30-1:30  
+
+- panel: Local Governance and Intergovernmental Management Research
+  time: 1:30-3:00  
+  discussants:
+  - name: John Kincaid
+    affiliation: Layafette University
+  papers:
+  - title: "Bottom-up Federalism: An Examination of U.S. Local Governments' Climate Change Policy"
+    authors:
+    - name: Benoy Jacob
+      affiliation: University of Colorado, Denver
+    - name: Brian Gerber
+      affiliation: Arizona State University 
+    - name: Sam Gallaher
+      affiliation: University of Colorado, Denver
+  - title:  Equipment Sharing Among Local Governments
+    authors:
+    - name: Daniel D. Wendt
+      affiliation: Bowling Green State University
+  - title: "Empathy and Ethics in Public Servants: The Role of Public Administration Education in Developing Competencies for Collaborative Governance"
+    authors:
+    - name: Mariglynn Edlins
+      affiliation: University of Baltimore
+    - name: Stephanie Dolamore
+      affiliation: University of Baltimore
+  - title:  "Can You Put Food on the Table? Redefining Poverty in America"
+    authors: 
+    - name: Maureen Berner
+      affiliation: University of North Carolina at Chapel Hill
+    - name: Alexander Vazquez
+      affiliation: University of North Carolina at Chapel Hill
+
+- panel: Break
+  time: 3:00-3:15  
+
+- panel: Public Administration and Providing and Managing Collaborative and Environmental Programs in the New Era
+  time: 3:15-4:45
+  discussants:
+  - name: Beverly Cigler
+    affiliation: Penn State Harrisburg
+  papers:
+  - title: Providing Public Services in a Networked and Collaborative Environment
+    authors:
+    - name: David K. Hamilton
+      affiliation: Texas Tech University
+  - title:  "The Municipal Governance of Sustainability: Climate Change, Polycentricity, and Public Administration"
+    authors:
+    - name: Dennis Patterson
+      affiliation: Texas Tech University
+    - name: Robert E. Forbis, Jr.
+      affiliation: Texas Tech University
+  - title: Determinants of Change and Innovation in U.S. Local Governments Natural Hazard Management Practices
+    authors:
+    - name: Brian Gerber
+      affiliation: Arizona State University
+  - title:  "The Conflicted Role of Professional Managers: Help Guild or Insulate from the Metropolitan Region"
+    authors:
+    - name: David Miller
+      affiliation: University of Pittsburgh
+
+- panel: Wrap-Up 
+  time: 4:45-5:00

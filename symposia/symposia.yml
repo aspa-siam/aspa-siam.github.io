@@ -1,0 +1,90 @@
+- title: "2026 Symposium"
+  date: 2026-03-20
+  location: Hollywood, CA
+  links:
+    - text: Call for papers
+      href:  /posts/2025-09-08-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2026.qmd
+
+- title: "2025 Symposium"
+  date: 2025-03-28
+  location: Washington, DC
+  links:
+    - text: Call for papers
+      href: /posts/2024-10-21-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2025.qmd
+
+- title: "2024 Symposium"
+  date: 2024-04-12
+  location: Minneapolis, MN
+  links:
+    - text: Call for papers
+      href: /posts/2024-10-21-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2024.qmd
+
+- title: "2023 Symposium"
+  date: 2023-03-22
+  location: Virtual
+  links:
+    - text: Symposium program
+      href: 2023.qmd
+
+- title: "2022 Symposium"
+  date: 2022-03-18
+  location: Jacksonville, FL
+  links:
+    - text: Call for papers
+      href: /posts/2021-11-02-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2022.qmd
+
+- title: "2021 Symposium"
+  date: 2022-04-09
+  location: Virtual
+  links:
+    - text: Symposium program
+      href: 2022.qmd
+
+- title: "2019 Symposium"
+  date: 2019-03-09
+  location: Washington, DC
+  links:
+    - text: Call for papers
+      href: /posts/2018-07-23-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2019.qmd
+
+- title: "2018 Symposium"
+  date: 2019-03-18
+  location: Denver, CO
+  links:
+    - text: Call for papers
+      href: /posts/2017-04-20-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2018.qmd
+
+- title: "2017 Symposium"
+  date: 2017-03-17
+  location: Atlanta, GA
+  links:
+    - text: Call for papers
+      href: /posts/2016-07-28-call-for-papers/index.qmd
+    - text: Symposium program
+      href: 2017.qmd
+
+- title: "2016 Symposium"
+  date: 2019-03-18
+  location: Seattle, WA
+  links:
+    - text: Symposium program
+      href: 2016.qmd
+
+- title: "2015 Symposium"
+  date: 2019-03-09
+  location: Washington, DC
+  links:
+    - text: Symposium program
+      href: 2015.qmd

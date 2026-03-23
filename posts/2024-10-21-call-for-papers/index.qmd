@@ -2,7 +2,8 @@
 title: "2025 Deil S. Wright Symposium: Call for Proposals"
 date: "2024-10-21"
 description: "The Section on Intergovernmental Administration and Management invites scholars and practitioners to submit proposals for papers to be presented at the 8th annual Deil S. Wright Symposium. The symposium honors the career and contributions of Professor Deil S. Wright, who was a charter member of the Section and remained active until his passing in 2009. The Wright Symposium will be held at the national conference of the American Society for Public Administration in Washington, DC. The theme of the all-day 2025 Wright Symposium will be “New Administration, New Trends in Federalism.”"
-toc: true
+sidebar: false
+toc: false
 categories:
     - call-for-papers
 ---

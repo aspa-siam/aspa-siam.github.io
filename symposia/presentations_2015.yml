@@ -1,0 +1,59 @@
+- panel: Teaching and Research Panel
+  time: 1:00-2:20 
+  papers:
+  - title: Is the Teaching of Federalism and Intergovernmental Relations Dead or Alive in American Public Administration Programs?
+    authors:
+    - name: Richard L. Cole
+      affiliation: University of Texas at Arlington
+    - name: John Kincaid
+      affiliation: Lafayette College
+  - title: "Taking the High Road: Local Government Managers' Perceptions on Implementing Local Option Recreational Marijuana in Colorado"
+    authors:
+    - name: Bruce J. Perlman
+      affiliation: University of New Mexico
+    - name: Sara Shoemate
+      affiliation: University of New Mexico
+    - name: Nicholas Edwardson, 
+      affiliation: University of New Mexico
+    - name: Michael J. Scicchitano
+      affiliation: University of Florida
+  - title: "Collaboration Risk in Joint Ventures among Governments: Understanding the Risk Perceptions of Economic Development Officials"
+    authors:
+    - name: Jered B. Carr
+      affiliation: University of Illinois at Chicago
+    - name: Christopher Hawkins
+      affiliation: University of Central Florida
+    - name: Drew Westberg
+      affiliation: University of Missouri-Kansas City
+  - title: "Jobs, Jobs, Jobs: Energy Efficiency and Growth through State and Local Implementation"
+    authors:
+    - name: Benjamin H. Deitchman
+      affiliation: Rochester Institute of Technology
+  - title: The Status of Home Rule in Illinois
+    authors:
+    - name: Heidi Koenig
+      affiliation: Northern Illinois University
+
+- panel: Break
+  time: 2:20-2:30
+
+- panel: "Roundtable I: NAPA Perspectives on New Paradigms for Developing a National Infrastructure Agenda"
+  time: 2:30-3:30 
+  description: |
+    Participants:
+
+    - Mark Pisano, University of Southern California
+    - Peter J. Basso, American Association of State Highway and Transportation Officials
+
+- panel: "Roundtable II: New Approaches to the Study of Contemporary Intergovernmental Relationships"
+  time: 3:30-4:45 
+  description: |
+    Participants:
+
+    - Robert A. Agranoff, Indiana University
+    - Beryl A. Radin, Georgetown University
+    - Ann O'M. Bowman, Texas A & M University
+    - Michael Pagano, University of Illinois at Chicago
+           
+- panel: Concluding Comments
+  time: 4:45 

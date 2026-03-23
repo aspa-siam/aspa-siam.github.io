@@ -2,7 +2,7 @@
 date-format: "ddd MMM D, YYYY"
 
 # Default for table of contents
-page-layout: full
+page-layout: article
 sidebar: false
 toc: false
 page-navigation: true

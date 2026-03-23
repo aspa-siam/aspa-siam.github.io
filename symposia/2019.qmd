@@ -1,0 +1,9 @@
+---
+title: 2019 Deil S. Wright Symposium
+subtitle: "Pennsylvania Room, Mayflower Hotel"
+page-layout: article
+listing:
+  - id: presentations_2019
+    contents: presentations_2019.yml
+    template: ../html/symposia/symposium.ejs
+--- 

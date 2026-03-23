@@ -1,0 +1,100 @@
+- panel: Welcome and Symposium Overview
+  time: 9:00AM-9:15AM
+
+- panel: Resilient and Networked Communities
+  time: 9:15AM-10:45AM
+  papers:
+  - title: "Climate Resilience Readiness in U.S. Metropolitan Regions: An Assessment of Climate Strategies and Vulnerabilities in Complex Systems"
+    authors:
+    - name: Eric Stokan 
+      affiliation: University of Maryland, Baltimore County
+    - name: Juwon Chung 
+      affiliation: Indiana University
+    - name: Aaron Deslatte 
+      affiliation: Indiana University
+    - name: Laura Helmke-Long
+      affiliation: Indiana University
+  - title: "Intergovernmental Collaboration on Public Safety as a Network of Networks"
+    authors:
+    - name: Jun Li
+      affiliation: University of Illinois Chicago
+  - title: "Observing the Evolution of Intergovernmental Emergency Responses as Prescribed by State Emergency Response Plans"
+    authors:
+    - name: Hsi-Chuan Wang
+      affiliation: University of Kansas
+  - title: "No Wrong Door: A Case Study of How a Rural County Engages Intergovernmental Organizations to Tackle the Opioid Crisis"
+    authors:
+    - name: Lachezar (Lucky) Anguelov
+      affiliation: Evergreen State College
+
+- panel: Break
+  time: 10:45-11:15AM
+
+- panel: Developing, Managing and Sustaining Regional Governance and Partnerships
+  time: 11:15AM-12:30PM
+  papers:
+  - title: "Baking in Resilience: Succession Planning Practices in Regional Organizations"
+    authors:
+    - name: George W. Dougherty, Jr.
+      affiliation: University of Pittsburgh
+    - name: Suzanne Leland
+      affiliation: University of North Carolina-Charlotte
+  - title: "Intergovernmental Relations in Saudi Arabia: Opportunities and Challenges"
+    authors:
+    - name: Michael Craw
+      affiliation: Evergreen State University
+    - name: Ahmed A. Qaisi
+      affiliation: Institute of Public Administration, Riyad
+    - name: Mohammed Alkhurayyif
+      affiliation: Institute of Public Administration, Riyad
+    - name: Simon A. Andrew
+      affiliation: University of North Texas
+  - title: "Exploring the Institutions of Intergovernmental Cooperation: An Examination of the Institutional Architecture and Governance Structures of Metropolitan Planning Organizations"
+    authors:
+    - name: Nicholas Oesterling
+      affiliation: Syracuse University
+    - name: Saba Siddiki
+      affiliation: Syracuse University
+
+- panel: Lunch Break
+  time: 12:30-1:30PM
+
+- panel: State-Local Interactions and Administrative Structures
+  time: 1:30-2:45PM
+  papers:
+  - title: "Unpacking Intragovernmental Collaborative Relations around Urban Sustainability"
+    authors:
+    - name: Chris Hawkins
+      affiliation: University of Central Florida
+  - title: "Common Pooled Resources in the States: An Index of Administrative Centralization"
+    authors:
+    - name: Paul Chalekian
+      affiliation: University of Nevada-Reno
+  - title: "Preemption and the Grass-Roots Content of State-Local Intergovernmental Relations"
+    authors:
+    - name: Eric Zeemering
+      affiliation: University of Georgia
+  - title: "Is Public Opinion of Federalism (or decentralization) Connected to the Public Value of Equity? Citizen Preferences for Policy Venue Authority and Public Administration Values"
+    authors:
+    - name: Suzanne Leland
+      affiliation: University of North Carolina-Charlotte
+    - name: Kimberly Nelson
+      affiliation: University of North Carolina-Chapel Hill
+
+- panel: Break
+  time: 2:45-3:00PM
+
+- panel: "Roundtable Discussion: Contemporary Challenges in Intergovernmental Management"
+  time: 3:00-4:15PM
+  moderators:
+  - name: Jered B. Carr
+    affiliation: University of Illinois Chicago
+  - name: Edgar Rameriz de la Cruz
+    affiliation: University of Nevada-Las Vegas
+
+- panel: Concluding Remarks
+  time: 4:15-4:30
+  description: "Chris Hawkins and Mark Wright"
+
+- panel: SIAM Business Meeting
+  time: 5:00- 6:00PM

@@ -3,11 +3,16 @@ pagetitle: "Section on Intergovernmental Administration and Management"
 sidebar: false
 toc: false
 page-layout: full
+anchor-sections: false
 listing:
   - id: posts
     contents: "posts/*/*.qmd"
     sort: "date desc"
     template: html/blog/listing.ejs
     categories: true
-    page-size: 5
+    page-size: 4
 ---
+
+## Recent Updates
+::: {#posts}
+:::

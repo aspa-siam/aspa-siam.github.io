@@ -1,0 +1,10 @@
+---
+title: 2025 Deil S. Wright Symposium
+subtitle: "Chinese Ballroom, Mayflower Hotel Washington D.C."
+page-layout: article
+listing:
+  - id: presentations_2025
+    contents: presentations_2025.yml
+    template: ../html/symposia/symposium.ejs
+---
+ 

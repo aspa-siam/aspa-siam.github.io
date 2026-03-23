@@ -1,0 +1,14 @@
+---
+title: "Deil S. Wright Symposium Archive"
+anchor-sections: false
+page-layout: article
+search: false
+date-format: long
+listing:
+  - id: symposia
+    contents: symposia.yml
+    template: ../html/symposia/links.ejs
+---
+
+::: {#symposia .column-screen-inset-right style="max-width: 850px;"}
+:::

@@ -5,30 +5,63 @@ sidebar: false
 toc: true
 ---
 
-Chair
-: Christopher Hawkins, University of Central Florida, 2022-2024
-
-Chair-Elect
-: David Swindell, Arizona State University, 2022-2024
-
-Past Chair
-: Christine Palus, Villanova University, 2020-2022
-
-Council Members
-: Jayce Farmer, University of Nevada, Las Vegas, 2020-2023
-: Meghan Rubado, Cleveland State University, 2020-2023
-: David Swindell, Arizona State University, 2020-2023
-: Qian Hu, University of Central Florida, 2019-2025
-: Steve Percy, Portland State University, 2019-2022
-: Anne Williamson, University of Missouri – Kansas City, 2021-2024
-: Kimberly Nelson, University of North Carolina, 2021-2024
-: Benoy Jacob, University of Wisconsin – Madison, 2021-2024
-: Sung-Wook Kwon, Texas Tech, 2022-2025
-: Chris Goodman, Northern Illinois University, 2022-2025
+```{r}
+#| echo: false
+tibble::tribble(
+  ~role, ~name, ~university, ~start, ~end,
+  "Chair", "Christopher Hawkins", "University of Central Florida", 2022, 2024,
+  "Chair-Elect", "David Swindell", "Arizona State University", 2022, 2024,
+  "Past Chair", "Christine Palus", "Villanova University", 2020, 2022,
+  "Executive Committee", "Jayce Farmer", "University of Nevada, Las Vegas", 2020, 2023,
+  "Executive Committee", "Meghan Rubado", "Cleveland State University", 2020, 2023,
+  "Executive Committee", "David Swindell", "Arizona State University", 2020, 2023,
+  "Executive Committee", "Qian Hu", "University of Central Florida", 2019, 2025,
+  "Executive Committee", "Steve Percy", "Portland State University", 2019, 2022,
+  "Executive Committee", "Anne Williamson", "University of Missouri–Kansas City", 2021, 2024,
+  "Executive Committee", "Kimberly Nelson", "University of North Carolina", 2021, 2024,
+  "Executive Committee", "Benoy Jacob", "University of Wisconsin–Madison", 2021, 2024,
+  "Executive Committee", "Sung-Wook Kwon", "Texas Tech University", 2022, 2025,
+  "Executive Committee", "Chris Goodman", "Northern Illinois University", 2022, 2025
+) |>
+  dplyr::mutate(role = factor(role, levels = c("Chair", "Chair-Elect", "Past Chair", "Executive Committee"))) |>
+  dplyr::group_by(role) |>
+  dplyr::arrange(start, .by_group = TRUE) |>
+  gt::gt() |>
+  gt::cols_align(
+    align = "left",
+    columns = c(name, university)
+  ) |>
+  gt::cols_align(
+    align = "center",
+    columns = c(start, end)
+  ) |>
+  gt::cols_label(
+    name = gt::md("**Name**"),
+    university = gt::md("**University**"),
+    start = gt::md("**Start**"),
+    end = gt::md("**End**")
+  ) |>
+  gt::tab_spanner(
+    label = gt::md("**Term**"),
+    columns = c(start, end)
+  ) |>
+  gt::cols_width(
+    start ~ gt::pct(15),
+    end ~ gt::pct(15)
+  ) |>
+  gt::tab_style(
+    style = gt::cell_text(weight = "bold"),
+    locations = gt::cells_row_groups(groups = c("Chair", "Chair-Elect", "Past Chair", "Executive Committee"))
+  ) |>
+  gt::tab_options(
+    table.width = gt::pct(75)
+  ) |>
+  gt::opt_horizontal_padding(scale = 1.5)
+```
 
 ## Appointed by the Chair
 Treasurer
-: Susan Paddock, University of Wisconsin – Madison, 2021-2023
+: Susan Paddock, University of Wisconsin – Madison
 
 
 ## Other Section Leaders

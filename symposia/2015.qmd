@@ -1,0 +1,9 @@
+---
+title: 2015 Deil S. Wright Symposium
+#subtitle: "Georgia 7, Sheraton Atlanta Hotel"
+page-layout: article
+listing:
+  - id: presentations_2015
+    contents: presentations_2015.yml
+    template: ../html/symposia/symposium.ejs
+--- 

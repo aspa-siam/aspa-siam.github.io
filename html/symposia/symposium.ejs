@@ -1,0 +1,32 @@
+
+<% for (const item of items) { %>
+
+### <%- item.panel %>
+<%- item.time %>
+
+<% if (item.moderators) { %>
+<% for (const moderator of item.moderators) { %>
+  Moderator: <%- moderator.name %> (<%- moderator.affiliation %>)
+<% } %>
+<% } %>
+
+<% if (item.discussants) { %>
+<% for (const discussant of item.discussants) { %>
+  Discussant: <%- discussant.name %> (<%- discussant.affiliation %>)
+<% } %>
+<% } %>
+
+<% if (item.description) { %>
+  <%- item.description %>
+<% } %>
+<% if (item.papers) { %>
+<% for (const papers of item.papers) { %>
+##### <%- papers.title %>
+
+<% for (const author of papers.authors) { %>
+<%- author.name %> (<%- author.affiliation %>)
+
+  <% } %>
+  <% } %>
+<% } %>
+<% } %>

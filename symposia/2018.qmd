@@ -1,0 +1,9 @@
+---
+title: 2018 Deil S. Wright Symposium
+subtitle: "Centennial A, Hyatt Regency Denver"
+page-layout: article
+listing:
+  - id: presentations_2018
+    contents: presentations_2018.yml
+    template: ../html/symposia/symposium.ejs
+---

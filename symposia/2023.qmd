@@ -1,0 +1,9 @@
+---
+title: 2023 Deil S. Wright Symposium
+subtitle: Virtual
+page-layout: article
+listing:
+  - id: presentations_2023
+    contents: presentations_2023.yml
+    template: ../html/symposia/symposium.ejs
+---

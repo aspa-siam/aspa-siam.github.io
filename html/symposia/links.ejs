@@ -1,0 +1,27 @@
+
+::: {.link-cards}
+
+<% for (const item of items) { %>
+
+::: {.card}
+::: {.card-body}
+
+::: {.card-title}
+#### <%- item.title %>
+<% if (item.location) { %>
+::: {.card-subtitle .text-muted}
+###### <%- item.location %>
+###### <%- item.date %>
+:::
+<% } %>
+:::
+
+<% for (const link of item.links) { %>
+- [<%- link.text %>](<%- link.href %>)<% } %>
+
+:::
+:::
+
+<% } %>
+
+:::
