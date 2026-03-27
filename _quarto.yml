@@ -32,6 +32,7 @@ website:
     title: false
     align: bottom
     collapse-below: lg
+    tools-collapse: true
 
     left:
       - text: "About"
@@ -56,15 +57,15 @@ website:
   page-footer: 
     border: false
     left: |
-      <span class="faux-block">Stay up-to-date with SIAM</span>
-      <a href="/join-us.qmd"  class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;subscribe to email&nbsp;&nbsp;&nbsp;</a>
+      <span class="faux-block">A section of [![](/files/logo-nowords-white.png){width=95px}](https://www.aspanet.org)</span>
     center: |
       <span class="faux-block"> [About SIAM](/about/index.qmd)</span>
       <span class="faux-block"> [Symposia](/symposia/index.qmd)</span>
       <span class="faux-block"> [Awards](/awards.qmd)</span>
       <span class="faux-block"> [SLGR](/slgr.qmd)</span>
     right: |
-      <span class="faux-block">A section of [![](/files/logo-nowords-white.png){width=95px}](https://www.aspanet.org)</span>
+      <span class="faux-block">Stay up-to-date with SIAM</span>
+      <a href="/join-us.qmd"  class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;&nbsp;subscribe to email&nbsp;&nbsp;&nbsp;</a>
         
 
 format:

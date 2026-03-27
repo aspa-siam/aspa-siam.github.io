@@ -158,9 +158,14 @@ body {
         font-size: 20px;
         padding-left: 1.4em;
         padding-right: 1.4em;
-        padding-bottom: 0.4em;
         color: $gray-100;
         font-weight: 400;
+
+        a:hover {
+            color: $white;
+            background-color: transparent;
+            text-decoration: none;
+        }
     }
     // In the default Quarto template, .nav-footer-center has position: absolute 
     // turned on, which makes the div not be a flex item
@@ -184,16 +189,11 @@ body {
         position: inherit;
         margin-top: 0;
         font-size: 20px;
-        padding-left: 1.2em;
-        padding-right: 1.2em;
+        padding-left: 1.4em;
+        padding-right: 1.4em;
+        padding-bottom: 0.4em;
         color: $gray-100;
-        font-weight: 400;
-
-        a:hover {
-            color: $white;
-            background-color: transparent;
-            text-decoration: none;
-        }
+        font-weight: 400;      
     }
 
     // When the screen is medium or smaller, make each footer chunk be 100% width 
