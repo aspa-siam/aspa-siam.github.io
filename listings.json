@@ -1,10 +1,18 @@
 [
   {
-    "listing": "/symposia/2018.html",
+    "listing": "/symposia/2023.html",
     "items": []
   },
   {
-    "listing": "/symposia/2024.html",
+    "listing": "/symposia/2017.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2021.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2016.html",
     "items": []
   },
   {
@@ -12,15 +20,31 @@
     "items": []
   },
   {
-    "listing": "/symposia/2023.html",
+    "listing": "/symposia/2026.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2022.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2018.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2025.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2024.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2015.html",
     "items": []
   },
   {
     "listing": "/symposia/index.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2016.html",
     "items": []
   },
   {
@@ -47,29 +71,5 @@
       "/posts/2016-03-18-deil-wright-symposium/index.html",
       "/posts/2015-01-30-deil-wright-symposium/index.html"
     ]
-  },
-  {
-    "listing": "/symposia/2021.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2022.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2026.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2017.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2025.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2015.html",
-    "items": []
   }
 ]
