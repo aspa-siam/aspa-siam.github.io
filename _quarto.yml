@@ -21,7 +21,7 @@ website:
   announcement: 
     icon: exclamation-triangle-fill
     dismissable: false
-    content: "**Alert** - Work in progress. Not ready for production."
+    content: "**Alert** - Work in progress."
     type: warning
     position: below-navbar
 

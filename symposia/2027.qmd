@@ -1,0 +1,9 @@
+---
+title: 2027 Deil S. Wright Symposium
+subtitle: Hyatt Regency New Orleans
+page-layout: article
+listing:
+  - id: presentations_2027
+    contents: presentations_2027.yml
+    template: ../html/symposia/symposium.ejs
+---

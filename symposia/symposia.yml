@@ -1,3 +1,12 @@
+- title: "2027 Symposium"
+  date: 2027-04-09
+  location: New Orleans, LA
+  links:
+    - text: Call for papers
+      href:  /posts/2026-09-03-call-for-papers/index.qmd
+    #- text: Symposium program
+    #  href: 2027.qmd
+
 - title: "2026 Symposium"
   date: 2026-03-20
   location: Hollywood, CA
