@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-11cdcf1c20cd336f63094503a9a4178d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1e73d08d3718407023a91e12154cfaf9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -191,8 +194,8 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="6e741eb49d0262c2a26d67373b146a44" class="alert alert-warning hidden"><i class="bi bi-exclamation-triangle-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Alert</strong> - Work in progress. Not ready for production.</p>
+  <div id="quarto-announcement" data-announcement-id="0f3f0b9dd9327b688553593b23bb3fef" class="alert alert-warning hidden"><i class="bi bi-exclamation-triangle-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Alert</strong> - Work in progress.</p>
 </div></div>
 </header>
 <!-- content -->
@@ -200,7 +203,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="YW5ub3VuY2VtZW50cw==">announcements <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Y2FsbC1mb3ItcGFwZXJz">call-for-papers <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bm9taW5hdGlvbnM=">nominations <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3ltcG9zaXVt">symposium <span class="quarto-category-count">(6)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(21)</span></div><div class="category" data-category="YW5ub3VuY2VtZW50cw==">announcements <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Y2FsbC1mb3ItcGFwZXJz">call-for-papers <span class="quarto-category-count">(8)</span></div><div class="category" data-category="bm9taW5hdGlvbnM=">nominations <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3ltcG9zaXVt">symposium <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -212,7 +215,28 @@ window.Quarto = {
 <div id="listing-posts" class="quarto-listing quarto-listing-container-custom">
 <div class="list blog">
     
-    <div class="blog-entry" data-index="0" data-categories="YW5ub3VuY2VtZW50cyUyQ25vbWluYXRpb25z" data-listing-date-sort="1771545600000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660">
+    <div class="blog-entry" data-index="0" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1788134400000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
+        <div class="body">
+            
+                <div class="post-categories listing-categories">
+                    
+                    <div class="post-category listing-category" onclick="window.quartoListingCategory('call-for-papers'); return false;">
+                        call-for-papers
+                    </div>
+                    
+                </div>
+                
+            <p class="title listing-title"><a href="./posts/2026-08-31-call-for-papers/index.html">2027 Deil S. Wright Symposium: Call for Proposals</a></p>
+            <div class="metadata">          
+                <p class="date listing-date">Aug 31, 2026</p>
+            </div>
+            <p class="description listing-description">The Section on Intergovernmental Administration and Management (SIAM) invites scholars and practitioners to submit proposals for papers to be presented at the 13th Annual Deil S. Wright Symposium. The symposium is a full day event that honors the career and contributions of Professor Deil S. Wright, a charter member of SIAM who remained active until his passing in 2009.The Wright Symposium will be held Friday, April 9, 2027, 8:00 a.m. – 5:00 p.m. during the national conference of the American Society for Public Administration (ASPA) in New Orleans, Louisiana.</p>
+            
+            <p class="description continue-reading"><a href="./posts/2026-08-31-call-for-papers/index.html">Continue reading</a></p>
+        </div>
+    </div>
+    
+    <div class="blog-entry" data-index="1" data-categories="YW5ub3VuY2VtZW50cyUyQ25vbWluYXRpb25z" data-listing-date-sort="1771545600000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -238,7 +262,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="1" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1757289600000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="548">
+    <div class="blog-entry" data-index="2" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1757289600000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="548">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -259,7 +283,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="2" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1729468800000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
+    <div class="blog-entry" data-index="3" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1729468800000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -280,7 +304,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="3" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
+    <div class="blog-entry" data-index="4" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -301,7 +325,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="4" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1682467200000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+    <div class="blog-entry" data-index="5" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1682467200000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -322,7 +346,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="5" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1665619200000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
+    <div class="blog-entry" data-index="6" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1665619200000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -343,7 +367,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="6" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1647561600000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1171">
+    <div class="blog-entry" data-index="7" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1647561600000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1171">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -364,7 +388,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="7" data-categories="YW5ub3VuY2VtZW50cyUyQ25vbWluYXRpb25z" data-listing-date-sort="1642723200000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+    <div class="blog-entry" data-index="8" data-categories="YW5ub3VuY2VtZW50cyUyQ25vbWluYXRpb25z" data-listing-date-sort="1642723200000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -389,7 +413,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="8" data-categories="YW5ub3VuY2VtZW50cyUyQ25vbWluYXRpb25z" data-listing-date-sort="1642723200000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
+    <div class="blog-entry" data-index="9" data-categories="YW5ub3VuY2VtZW50cyUyQ25vbWluYXRpb25z" data-listing-date-sort="1642723200000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -414,7 +438,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="9" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1635811200000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="396">
+    <div class="blog-entry" data-index="10" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1635811200000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="396">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -435,7 +459,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="10" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1631750400000" data-listing-file-modified-sort="1783439518058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+    <div class="blog-entry" data-index="11" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1631750400000" data-listing-file-modified-sort="1788199852961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -456,7 +480,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="11" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1617926400000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+    <div class="blog-entry" data-index="12" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1617926400000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -477,7 +501,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="12" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1552003200000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
+    <div class="blog-entry" data-index="13" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1552003200000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -498,7 +522,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="13" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1532304000000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="472">
+    <div class="blog-entry" data-index="14" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1532304000000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="472">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -519,7 +543,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="14" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1529539200000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+    <div class="blog-entry" data-index="15" data-categories="YW5ub3VuY2VtZW50cw==" data-listing-date-sort="1529539200000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -540,7 +564,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="15" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1520553600000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
+    <div class="blog-entry" data-index="16" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1520553600000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -561,7 +585,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="16" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1492646400000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="625">
+    <div class="blog-entry" data-index="17" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1492646400000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="625">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -582,7 +606,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="17" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1469664000000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="546">
+    <div class="blog-entry" data-index="18" data-categories="Y2FsbC1mb3ItcGFwZXJz" data-listing-date-sort="1469664000000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="546">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -603,7 +627,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="18" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1458259200000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="549">
+    <div class="blog-entry" data-index="19" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1458259200000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="549">
         <div class="body">
             
                 <div class="post-categories listing-categories">
@@ -624,7 +648,7 @@ window.Quarto = {
         </div>
     </div>
     
-    <div class="blog-entry" data-index="19" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1425600000000" data-listing-file-modified-sort="1783439518057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
+    <div class="blog-entry" data-index="20" data-categories="c3ltcG9zaXVt" data-listing-date-sort="1425600000000" data-listing-file-modified-sort="1788199852960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
         <div class="body">
             
                 <div class="post-categories listing-categories">

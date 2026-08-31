@@ -1,22 +1,6 @@
 [
   {
-    "listing": "/symposia/2023.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2017.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2021.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2016.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2019.html",
+    "listing": "/symposia/2027.html",
     "items": []
   },
   {
@@ -24,7 +8,15 @@
     "items": []
   },
   {
-    "listing": "/symposia/2022.html",
+    "listing": "/symposia/2015.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2024.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2017.html",
     "items": []
   },
   {
@@ -36,20 +28,9 @@
     "items": []
   },
   {
-    "listing": "/symposia/2024.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2015.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/index.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-08-31-call-for-papers/index.html",
       "/posts/2026-02-20-call-for-nominations/index.html",
       "/posts/2025-09-08-call-for-papers/index.html",
       "/posts/2024-10-21-call-for-papers/index.html",
@@ -71,5 +52,29 @@
       "/posts/2016-03-18-deil-wright-symposium/index.html",
       "/posts/2015-01-30-deil-wright-symposium/index.html"
     ]
+  },
+  {
+    "listing": "/symposia/2019.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2021.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2016.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2022.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2023.html",
+    "items": []
   }
 ]
