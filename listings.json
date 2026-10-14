@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/symposia/2027.html",
+    "listing": "/symposia/2016.html",
     "items": []
   },
   {
-    "listing": "/symposia/2026.html",
+    "listing": "/symposia/2025.html",
     "items": []
   },
   {
-    "listing": "/symposia/2015.html",
+    "listing": "/symposia/2019.html",
     "items": []
   },
   {
@@ -16,15 +16,15 @@
     "items": []
   },
   {
-    "listing": "/symposia/2017.html",
-    "items": []
-  },
-  {
     "listing": "/symposia/2018.html",
     "items": []
   },
   {
-    "listing": "/symposia/2025.html",
+    "listing": "/symposia/2017.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2022.html",
     "items": []
   },
   {
@@ -54,11 +54,7 @@
     ]
   },
   {
-    "listing": "/symposia/2019.html",
-    "items": []
-  },
-  {
-    "listing": "/symposia/2021.html",
+    "listing": "/symposia/2015.html",
     "items": []
   },
   {
@@ -66,15 +62,19 @@
     "items": []
   },
   {
-    "listing": "/symposia/2016.html",
+    "listing": "/symposia/2027.html",
     "items": []
   },
   {
-    "listing": "/symposia/2022.html",
+    "listing": "/symposia/2021.html",
     "items": []
   },
   {
     "listing": "/symposia/2023.html",
+    "items": []
+  },
+  {
+    "listing": "/symposia/2026.html",
     "items": []
   }
 ]
